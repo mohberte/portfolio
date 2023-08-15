@@ -68,12 +68,6 @@ function Resume() {
            
           </Col>
         </Row>
-        <Row style={{ justifyContent: 'center', position: 'relative' }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
       </Container>
     </Container>
   );

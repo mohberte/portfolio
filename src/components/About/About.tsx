@@ -14,22 +14,27 @@ function About() {
             <p className="home-about-body">
               I have been programming for close to a decade
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in languages like
               <i>
-                <b className="purple"> Java, Javascript and HTML Css. </b>
+                <b className="purple"> HTML CSS, Javascript and Java. </b>
               </i>
               <br />
               <br />
-              My areas of interest are building new &nbsp;
+              I like building new &nbsp;
               <i>
                 <b className="purple">
-                  Web Technologies, Application developement{' '}
+                  Web applications{' '}
                 </b>{' '}
-                and also <b className="purple">Clouds</b> development and deployment
+                and deploying them to the <b className="purple">Cloud</b> 
               </i>
               <br />
               <br />
-              My favorites languages for front end development are <b className="purple">Node.js</b> and
+              My favorites languages for front end development are <b className="purple">HTML </b>,
+              <b className="purple">
+                
+               CSS </b> and <b className="purple">  typescript
+               <br /><br />
+               </b> I combined that with
               <i>
                 <b className="purple">
                   {' '}
@@ -38,7 +43,9 @@ function About() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js</b> and <b className="purple"> Next.js </b>
+                as well as <b className="purple">Tailwind CSS  </b> and <b className="purple"> 
+               Chakra Ui</b>
               </i>
             </p>
           </Col>

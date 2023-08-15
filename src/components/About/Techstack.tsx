@@ -18,7 +18,6 @@ import {
 const techIcons = [
   DiJava,
   DiJavascript1,
-  DiNodejs,
   DiReact,
   SiSpring,
   SiMysql,
