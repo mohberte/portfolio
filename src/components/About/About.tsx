@@ -20,7 +20,7 @@ function About() {
               </i>
               <br />
               <br />
-              I like building new &nbsp;
+              I like building new&nbsp;
               <i>
                 <b className="purple">
                   Web applications{' '}
@@ -34,7 +34,7 @@ function About() {
                 
                CSS </b> and <b className="purple">  typescript
                <br /><br />
-               </b> I combined that with
+               </b> I combine that with
               <i>
                 <b className="purple">
                   {' '}
@@ -45,7 +45,7 @@ function About() {
               <i>
                 <b className="purple"> React.js</b> and <b className="purple"> Next.js </b>
                 as well as <b className="purple">Tailwind CSS  </b> and <b className="purple"> 
-               Chakra Ui</b>
+               Chakra Ui</b> to create beautiful and fast websites
               </i>
             </p>
           </Col>
