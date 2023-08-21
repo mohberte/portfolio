@@ -4,6 +4,7 @@ import Particle from '../Particle'
 import MovieHub from '../../Assets/Projects/MovieHub.png'
 import EcommerceStore from '../../Assets/Projects/EcommerceStore.png'
 import OttawaExplorer from '../../Assets/Projects/OttawaExplorer.png'
+import CountryInfo from '../../Assets/Projects/CountryInfo.png'
 
 
 function Projects() {
@@ -36,6 +37,18 @@ function Projects() {
               description="Fully responsive with dark mode built using React, Chakra Ui. Makes rest calls to the TMDb API using zustand.  "
               link="https://github.com/mohberte/MovieHub"
               liveLink="https://movie-app-seven-swart.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CountryInfo}
+              isBlog={false}
+              title="Country Info App"
+              description="Provides information about different countries. 
+              Built using one of the latest React librairies, 
+              #React-three and a #canvas to display a beautiful starry sky backgound."
+              link="https://github.com/mohberte/CountryInfo"
+              liveLink="https://countryinfo.vercel.app//"
             />
           </Col>
           <Col md={4} className="project-card">
