@@ -35,6 +35,15 @@ function Resume() {
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
+          <h3 className="resume-title">Education</h3>
+            {EducationData.map((edu, index) => (
+              <Resumecontent
+                key={index}
+                title={edu.title}
+                date={edu.date}
+                content={edu.content}
+              />
+            ))}
             <h3 className="resume-title">Experience</h3>
             {ExperienceData.map((experience, index) => (
               <Resumecontent
@@ -44,7 +53,9 @@ function Resume() {
                 content={experience.content}
               />
             ))}
-            <h3 className="resume-title">Certification</h3>
+          </Col>
+          <Col md={6} className="resume-right">
+            <h3 className="resume-title">Certificate</h3>
             {CertificationData.map((activity, index) => (
               <Resumecontent
                 key={index}
@@ -53,17 +64,7 @@ function Resume() {
                 content={activity.content}
               />
             ))}
-          </Col>
-          <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
-            {EducationData.map((edu, index) => (
-              <Resumecontent
-                key={index}
-                title={edu.title}
-                date={edu.date}
-                content={edu.content}
-              />
-            ))}
+            
 
            
           </Col>
